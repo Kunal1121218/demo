@@ -1,0 +1,198 @@
+0000.001 (0) Opened log file at time: Fri, 29 Nov 2024 10:29:26 +0000 on http://localhost/demo
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.7.1 PHP: 8.0.30 (apache2handler, Windows NT LAPTOP-F4MURPFR 10.0 build 22631 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 79.8M | 82M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 (0) Free space on disk containing Updraft's temporary directory: 8565.3 MB
+0000.033 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.035 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.078 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1732711183, seconds_ago=164983)
+0000.091 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-11-29 10:29:26
+0000.094 (0) Semaphore (fd, wp_options) reset to 1
+0000.097 (0) Set semaphore last lock (fd) time to 2024-11-29 10:29:26
+0000.099 (0) Semaphore lock (fd) complete
+0000.105 (0) Backup run: resumption=0, nonce=f9533198715e, file_nonce=f9533198715e begun at=1732876166 (0s ago), job type=backup
+0000.109 (0) Scheduling a resumption (1) after 300 seconds (1732876467) in case this run gets aborted
+0000.174 (0) Checking if we have a zip executable available
+0000.181 (0) Creation of backups of directories: beginning
+0000.187 (0) No backup of plugins: excluded by user's options
+0000.189 (0) No backup of themes: excluded by user's options
+0000.191 (0) No backup of uploads: excluded by user's options
+0000.192 (0) No backup of mu-plugins: excluded by user's options
+0000.199 (0) No backup of others: excluded by user's options
+0000.207 (0) Saving backup status to database (elements: 0)
+0000.215 (0) Beginning creation of database dump (WordPress DB)
+0000.217 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.325 (0) Table wp_options: Total expected rows (via COUNT): 440
+0000.329 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.471 (0) Table wp_options: Rows added in this batch (next record: 2223): 436 (uncompressed bytes in this segment=3063408) in 0.22 seconds
+0000.489 (0) Table wp_options: finishing file(s) (2, 419.4 KB)
+0000.517 (0) Table wp_users: Total expected rows (via COUNT): 1
+0000.519 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.528 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1165) in 0.03 seconds
+0000.547 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0000.590 (0) Table wp_usermeta: Total expected rows (via COUNT): 40
+0000.593 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.600 (0) Table wp_usermeta: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=5186) in 0.04 seconds
+0000.613 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0000.655 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 29
+0000.656 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.664 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 37): 29 (uncompressed bytes in this segment=13609) in 0.04 seconds
+0000.676 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.7 KB)
+0000.707 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0000.718 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.03 seconds
+0000.731 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0000.753 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0000.755 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.759 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=675) in 0.02 seconds
+0000.771 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0000.801 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 75
+0000.803 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.807 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 75): 75 (uncompressed bytes in this segment=7251) in 0.03 seconds
+0000.818 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0000.851 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0000.854 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.03 seconds
+0000.865 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.918 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0000.920 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.931 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1882) in 0.06 seconds
+0000.940 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0000.968 (0) Table wp_links: Total expected rows (via COUNT): 0
+0000.972 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+0000.981 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.221 (0) Table wp_postmeta: Total expected rows (approximate): 4528
+0001.673 (0) Table wp_postmeta: Rows added in this batch (next record: 5077): 3241 (uncompressed bytes in this segment=13525158) in 0.69 seconds
+0001.686 (0) Table wp_postmeta: finishing file(s) (2, 1211.9 KB)
+0001.741 (0) Table wp_posts: Total expected rows (via COUNT): 511
+0001.780 (0) Table wp_posts: Rows added in this batch (next record: 1350): 511 (uncompressed bytes in this segment=2538523) in 0.09 seconds
+0001.791 (0) Table wp_posts: finishing file(s) (2, 62.7 KB)
+0001.817 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0001.821 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 17 (uncompressed bytes in this segment=922) in 0.02 seconds
+0001.832 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0001.858 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0001.860 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.864 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1028) in 0.03 seconds
+0001.879 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0001.913 (0) Table wp_termmeta: Total expected rows (via COUNT): 2
+0001.915 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.918 (0) Table wp_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=745) in 0.03 seconds
+0001.929 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0001.948 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0001.951 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.953 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=835) in 0.02 seconds
+0001.967 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0001.994 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0001.998 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+0002.007 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0002.031 (0) Table wp_mystickymenu_contact_lists: Total expected rows (via COUNT): 0
+0002.033 (0) Table wp_mystickymenu_contact_lists: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=782) in 0.02 seconds
+0002.043 (0) Table wp_mystickymenu_contact_lists: finishing file(s) (2, 0.4 KB)
+0002.081 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 9
+0002.082 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.086 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=2464) in 0.03 seconds
+0002.097 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.8 KB)
+0002.120 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 6
+0002.122 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.124 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10890): 6 (uncompressed bytes in this segment=17668) in 0.02 seconds
+0002.135 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 4.5 KB)
+0002.158 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0002.164 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.02 seconds
+0002.174 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0002.199 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 2
+0002.201 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.206 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=29712) in 0.02 seconds
+0002.216 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 4.4 KB)
+0002.237 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0002.241 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=730) in 0.02 seconds
+0002.254 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0002.297 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 5
+0002.298 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.303 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 14): 5 (uncompressed bytes in this segment=31953) in 0.04 seconds
+0002.314 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 3 KB)
+0002.341 (0) Table wp_simply_static_pages: Total expected rows (approximate): 11944
+0002.665 (0) Table wp_simply_static_pages: Rows added in this batch (next record: 12911): 12911 (uncompressed bytes in this segment=5025784) in 0.34 seconds
+0002.676 (0) Table wp_simply_static_pages: finishing file(s) (2, 180.6 KB)
+0002.705 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0002.707 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.02 seconds
+0002.718 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0002.754 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0002.758 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.03 seconds
+0002.770 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0002.800 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0002.804 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.03 seconds
+0002.813 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0002.848 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0002.850 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.854 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 8): 5 (uncompressed bytes in this segment=979) in 0.03 seconds
+0002.865 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0002.867 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\demo/wp-content/updraft/backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db.gz (line 1925, C:\xampp\htdocs\demo\wp-content\plugins\updraftplus\backup.php)
+0002.871 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_options.table.tmpr2224.gz (1/29/fopen): adding to final database dump
+0002.883 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_options.table.gz (2/29/fopen): adding to final database dump
+0002.885 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_users.table.tmpr2.gz (3/29/fopen): adding to final database dump
+0002.887 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_users.table.gz (4/29/fopen): adding to final database dump
+0002.889 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_usermeta.table.tmpr41.gz (5/29/fopen): adding to final database dump
+0002.890 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_usermeta.table.gz (6/29/fopen): adding to final database dump
+0002.891 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_actions.table.tmpr38.gz (7/29/fopen): adding to final database dump
+0002.893 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_actions.table.gz (8/29/fopen): adding to final database dump
+0002.894 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/29/fopen): adding to final database dump
+0002.897 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_claims.table.gz (10/29/fopen): adding to final database dump
+0002.898 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/29/fopen): adding to final database dump
+0002.900 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_groups.table.gz (12/29/fopen): adding to final database dump
+0002.902 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_logs.table.tmpr76.gz (13/29/fopen): adding to final database dump
+0002.903 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_actionscheduler_logs.table.gz (14/29/fopen): adding to final database dump
+0002.905 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_commentmeta.table.tmpr0.gz (15/29/fopen): adding to final database dump
+0002.906 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_commentmeta.table.gz (16/29/fopen): adding to final database dump
+0002.908 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_comments.table.tmpr2.gz (17/29/fopen): adding to final database dump
+0002.909 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_comments.table.gz (18/29/fopen): adding to final database dump
+0002.911 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_links.table.tmpr0.gz (19/29/fopen): adding to final database dump
+0002.912 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_links.table.gz (20/29/fopen): adding to final database dump
+0002.913 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_postmeta.table.tmpr5078.gz (21/29/fopen): adding to final database dump
+0002.935 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_postmeta.table.gz (22/29/fopen): adding to final database dump
+0002.937 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_posts.table.tmpr1351.gz (23/29/fopen): adding to final database dump
+0002.939 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_posts.table.gz (24/29/fopen): adding to final database dump
+0002.941 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_term_relationships.table.tmpr100001.gz (25/29/fopen): adding to final database dump
+0002.943 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_term_relationships.table.gz (26/29/fopen): adding to final database dump
+0002.945 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_term_taxonomy.table.tmpr7.gz (27/29/fopen): adding to final database dump
+0002.947 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_term_taxonomy.table.gz (28/29/fopen): adding to final database dump
+0002.949 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_termmeta.table.tmpr3.gz (29/29/fopen): adding to final database dump
+0002.950 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_termmeta.table.gz (30/29/fopen): adding to final database dump
+0002.952 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_terms.table.tmpr7.gz (31/29/fopen): adding to final database dump
+0002.953 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_terms.table.gz (32/29/fopen): adding to final database dump
+0002.955 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_e_events.table.tmpr0.gz (33/29/fopen): adding to final database dump
+0002.956 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_e_events.table.gz (34/29/fopen): adding to final database dump
+0002.958 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_mystickymenu_contact_lists.table.tmpr0.gz (35/29/fopen): adding to final database dump
+0002.959 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_mystickymenu_contact_lists.table.gz (36/29/fopen): adding to final database dump
+0002.961 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_image_storage.table.tmpr10.gz (37/29/fopen): adding to final database dump
+0002.964 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_image_storage.table.gz (38/29/fopen): adding to final database dump
+0002.965 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_section_storage.table.tmpr10891.gz (39/29/fopen): adding to final database dump
+0002.966 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_section_storage.table.gz (40/29/fopen): adding to final database dump
+0002.968 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (41/29/fopen): adding to final database dump
+0002.969 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_generators.table.gz (42/29/fopen): adding to final database dump
+0002.971 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (43/29/fopen): adding to final database dump
+0002.973 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_sliders.table.gz (44/29/fopen): adding to final database dump
+0002.974 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (45/29/fopen): adding to final database dump
+0002.976 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (46/29/fopen): adding to final database dump
+0002.978 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_slides.table.tmpr15.gz (47/29/fopen): adding to final database dump
+0002.979 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_nextend2_smartslider3_slides.table.gz (48/29/fopen): adding to final database dump
+0002.981 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_simply_static_pages.table.tmpr12912.gz (49/29/fopen): adding to final database dump
+0002.986 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_simply_static_pages.table.gz (50/29/fopen): adding to final database dump
+0002.988 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_logs.table.tmpr0.gz (51/29/fopen): adding to final database dump
+0002.990 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_logs.table.gz (52/29/fopen): adding to final database dump
+0002.992 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (53/29/fopen): adding to final database dump
+0002.994 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_payment_meta.table.gz (54/29/fopen): adding to final database dump
+0002.995 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_payments.table.tmpr0.gz (55/29/fopen): adding to final database dump
+0002.997 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_payments.table.gz (56/29/fopen): adding to final database dump
+0002.999 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_tasks_meta.table.tmpr9.gz (57/29/fopen): adding to final database dump
+0003.001 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db-table-wp_wpforms_tasks_meta.table.gz (58/29/fopen): adding to final database dump
+0003.080 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db.gz: finished writing out complete database file (1900.4 KB)
+0003.134 (0) Total database tables backed up: 29 (backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db.gz, size: 1946181, sha1: 1daa9bbe21bc819f029a4b0aee3e2b2d6ccb2a35, sha256: a883d8beca95af59fdf835f8d034bad25856b376a0102c6246c482428a209231)
+0003.140 (0) backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.141 (0) Saving backup history. Total backup size: 1.9 MB
+0003.145 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.150 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.152 (0) No remote despatch: user chose no remote backup service
+0003.153 (0) Recording as successfully uploaded: backup_2024-11-29-1029_Trimurti_Constructions_f9533198715e-db.gz
+0003.156 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.157 (0) Resume backup (f9533198715e, 0): finish run
+0003.162 (0) Decremented the semaphore (fd) by 1
+0003.165 (0) Semaphore (fd) unlocked
+0003.166 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.171 (0) No email will/can be sent - the user has not configured an email address.
+0003.172 (0) The backup succeeded and is now complete
